@@ -1,0 +1,12 @@
+body{
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    height: 100%;
+}
+
+.login{
+    background-color: cyan;
+    width: fit-content;
+}
