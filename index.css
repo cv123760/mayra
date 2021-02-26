@@ -32,7 +32,6 @@ header a{
     padding: 20px;
     margin:0;
     background-color: #3bcbe8;
-    transform: skew(20deg);
     padding-left: 3em;
 }
 
@@ -62,6 +61,7 @@ main{
     background-image: url(images/materials.jpg);
     background-size: cover;
     width: 100%;
+    
 }
 
 form{
@@ -75,3 +75,34 @@ form{
     border-radius: 20px;
 }
 
+
+
+button{
+    background-color: #283044;
+    color: white;
+    padding: 10px 20px;
+}
+
+.cards{
+    max-width: 1024px;
+    margin:40px auto    ;
+    display: flex;
+    justify-content:space-evenly
+}
+
+.class{
+    height: 100px;
+    width: 15%;
+    border: 1px solid #3bcbe8;
+    text-align: center;
+}
+
+.class p{
+    text-decoration: none;
+    color: #283044;
+}
+
+
+
+/* add burger menu move social medial to footer */
+@media{}
